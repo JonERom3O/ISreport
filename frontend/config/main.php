@@ -8,12 +8,20 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
+    'name'=>'IS-Report@yom',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@frontend/views' => '@frontend/themes/adminlte'
+                ],
+            ],
         ],
         'user' => [
             'identityClass' => 'common\models\User',

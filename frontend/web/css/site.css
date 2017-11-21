@@ -1,5 +1,8 @@
+@import url(../../vendor/sarabun-webfont/fonts/thsarabunnew.css);
 html,
 body {
+    font-family: 'THSarabunNew',
+    sans-serif;
     height: 100%;
 }
 
