@@ -150,7 +150,7 @@ use yii\helpers\Html;
                         <span class="label label-danger">9</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li class="header">You have 9 tasks</li>
+                        <li class="header">You have 11111 tasks</li>
                         <li>
                             <!-- inner menu: contains the actual data -->
                             <ul class="menu">
